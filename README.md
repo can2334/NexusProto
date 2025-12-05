@@ -40,7 +40,7 @@ These instructions assume you have Node.js (version 16 or higher) and npm (or ya
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/phaticusthiccy/NexusProto.git
+   git clone https://github.com/can2334/NexusProto.git
    cd NexusProto
    ```
 
