@@ -1,0 +1,319 @@
+{
+  "handlers": [
+    ".",
+    "/",
+    "!"
+  ],
+  "version": "0.6.6",
+  "filters": [
+    {
+      "chat": "0000000@g.us",
+      "active": true,
+      "filters": [
+        {
+          "incoming": "^hi",
+          "outgoing": "Hello!"
+        }
+      ]
+    }
+  ],
+  "aliveMessage": {
+    "type": "image",
+    "media": "alive.png"
+  },
+  "welcomeMessage": [
+    {
+      "chat": "0000000@g.us",
+      "type": "text",
+      "content": "Hello!",
+      "media": ""
+    }
+  ],
+  "goodbyeMessage": [
+    {
+      "chat": "0000000@g.us",
+      "type": "text",
+      "content": "Goodbye!",
+      "media": ""
+    }
+  ],
+  "sudo": [],
+  "worktype": "private",
+  "globalMutes": [
+    {
+      "chat": "0000000@g.us",
+      "muted_users": []
+    }
+  ],
+  "blacklist": [],
+  "plugins": [],
+  "afkMessage": {
+    "type": "text",
+    "media": "",
+    "content": "_I'am currently AFK! Please contact me later._",
+    "active": false
+  },
+  "users": {},
+  "games": {
+    "blackjack": {
+      "120363068753822588@g.us": {
+        "player": "905343214765@s.whatsapp.net",
+        "remoteJid": "120363068753822588@g.us",
+        "deck": [
+          {
+            "suit": "❤️",
+            "rank": "5"
+          },
+          {
+            "suit": "♣️",
+            "rank": "7"
+          },
+          {
+            "suit": "❤️",
+            "rank": "8"
+          },
+          {
+            "suit": "♦️",
+            "rank": "7"
+          },
+          {
+            "suit": "♣️",
+            "rank": "8"
+          },
+          {
+            "suit": "❤️",
+            "rank": "A"
+          },
+          {
+            "suit": "❤️",
+            "rank": "10"
+          },
+          {
+            "suit": "♠️",
+            "rank": "8"
+          },
+          {
+            "suit": "❤️",
+            "rank": "9"
+          },
+          {
+            "suit": "♣️",
+            "rank": "A"
+          },
+          {
+            "suit": "♦️",
+            "rank": "6"
+          },
+          {
+            "suit": "♦️",
+            "rank": "A"
+          },
+          {
+            "suit": "♠️",
+            "rank": "9"
+          },
+          {
+            "suit": "♠️",
+            "rank": "Q"
+          },
+          {
+            "suit": "♠️",
+            "rank": "7"
+          },
+          {
+            "suit": "♠️",
+            "rank": "6"
+          },
+          {
+            "suit": "♠️",
+            "rank": "10"
+          },
+          {
+            "suit": "♣️",
+            "rank": "K"
+          },
+          {
+            "suit": "♦️",
+            "rank": "J"
+          },
+          {
+            "suit": "♣️",
+            "rank": "9"
+          },
+          {
+            "suit": "♦️",
+            "rank": "3"
+          },
+          {
+            "suit": "♦️",
+            "rank": "K"
+          },
+          {
+            "suit": "♣️",
+            "rank": "J"
+          },
+          {
+            "suit": "♣️",
+            "rank": "2"
+          },
+          {
+            "suit": "♦️",
+            "rank": "Q"
+          },
+          {
+            "suit": "❤️",
+            "rank": "K"
+          },
+          {
+            "suit": "♠️",
+            "rank": "2"
+          },
+          {
+            "suit": "♣️",
+            "rank": "6"
+          },
+          {
+            "suit": "❤️",
+            "rank": "6"
+          },
+          {
+            "suit": "♠️",
+            "rank": "K"
+          },
+          {
+            "suit": "♠️",
+            "rank": "4"
+          },
+          {
+            "suit": "♦️",
+            "rank": "5"
+          },
+          {
+            "suit": "♠️",
+            "rank": "A"
+          },
+          {
+            "suit": "❤️",
+            "rank": "7"
+          },
+          {
+            "suit": "❤️",
+            "rank": "4"
+          },
+          {
+            "suit": "♦️",
+            "rank": "2"
+          },
+          {
+            "suit": "♣️",
+            "rank": "10"
+          },
+          {
+            "suit": "♦️",
+            "rank": "10"
+          },
+          {
+            "suit": "❤️",
+            "rank": "J"
+          },
+          {
+            "suit": "❤️",
+            "rank": "2"
+          },
+          {
+            "suit": "♦️",
+            "rank": "8"
+          },
+          {
+            "suit": "♣️",
+            "rank": "3"
+          },
+          {
+            "suit": "♣️",
+            "rank": "5"
+          },
+          {
+            "suit": "♠️",
+            "rank": "J"
+          },
+          {
+            "suit": "♦️",
+            "rank": "9"
+          },
+          {
+            "suit": "♣️",
+            "rank": "4"
+          },
+          {
+            "suit": "♦️",
+            "rank": "4"
+          },
+          {
+            "suit": "♣️",
+            "rank": "Q"
+          }
+        ],
+        "playerHand": [
+          {
+            "suit": "❤️",
+            "rank": "3"
+          },
+          {
+            "suit": "❤️",
+            "rank": "Q"
+          }
+        ],
+        "dealerHand": [
+          {
+            "suit": "♠️",
+            "rank": "3"
+          },
+          {
+            "suit": "♠️",
+            "rank": "5"
+          }
+        ],
+        "playerTotal": 13,
+        "dealerTotal": 8,
+        "isPlayerTurn": true,
+        "isGameOver": false,
+        "newMsg": false,
+        "messageId": "3EB01A28E1145DA8EC0356",
+        "msgkey": {
+          "remoteJid": "120363068753822588@g.us",
+          "fromMe": true,
+          "id": "3EB01A28E1145DA8EC0356"
+        }
+      }
+    }
+  },
+  "thenaAPIKey": "",
+  "translate": true,
+  "translateDb": {
+    "X1RyYW5zbGF0aW9uIGhhcyBiZWVuIHNldCB0b18gdHIgXyFf": "_Çeviri_ olarak ayarlandı tr _!_",
+    "X1R1cm4gb24gb3Igb2ZmIEFGSyBtb2RlLl8=": "_AFK modunu açın veya kapatın._",
+    "XypBbGl2ZSBrb211dHUgacOnaW4gZ8O2cnNlbGksIHlhbsSxdGxhbmFuIGZvdG/En3JhZmxhIGfDvG5jZWxsZXIuKl8=": "_*Alive kesme için görsel, yanıtlanan fotoğraflarla günceller.*_",
+    "X0FkZCBmaWx0ZXJzIHRoYXQgYXV0b21hdGljYWxseSByZXNwb25kIHRvIHlvdXIgY2hhdHMuIFN1cHBvcnRzIHJlZ2V4cC5f": "_Sohbetlerinize otomatik olarak yanıt veren filtreler ekleyin. Regexp'i destekler._",
+    "X0FkanVzdCB0aGUgYm904oCZcyBsYW5ndWFnZS5f": "_Bot dilini ayarlayın._",
+    "X0NoYW5nZSB0aGUgd29ya2luZyB0eXBlIG9mIHRoZSBib3QuXw==": "_Botun çalışma türünü değiştirin._",
+    "X0l0IGFsbG93cyB5b3UgdG8gdmlldyB0aGUgdmlldyBvbmNlIG1lc3NhZ2VzLl8=": "_Mesajların bir kez görüntülenmesini sağlar._",
+    "QWxsb3dzIHlvdSB0byBhZGQgYW5kIHJlbW92ZSBhIHVzZXIgb3IgZ3JvdXAgdG8gdGhlIGJsYWNrbGlzdC4=": "Kara listeye bir kullanıcıyı veya grubu eklemenizi ve kaldırmanızı sağlar.",
+    "QWxsb3dzIHlvdSB0byBkb3dubG9hZCB2aWRlb3MvaW1hZ2VzIGZyb20gSW5zdGFncmFtLg==": "Instagram'dan video/resim indirmenize olanak tanır.",
+    "X1VwZGF0ZSB0aGUgYm90Ll8=": "_Bot'u güncelleyin._",
+    "X0FkZCBvciByZW1vdmUgc3VkbyB1c2VycyB0byB0aGUgYm90Xw==": "_Sudo kullanıcılarını bota ekleyin veya kaldırın_",
+    "RG93bmxvYWQgdmlkZW8gZnJvbSB0aWt0b2su": "Tiktok'tan video indirin.",
+    "XypBbGl2ZSBrb211dHUgacOnaW4gYXlhcmxhbm3EscWfIGfDtnJzZWxpIHNpbGVyIHZlIG1ldGluIG1vZHVuYSBkw7ZuZXIuKl8=": "_*Alive kesmek için ayarlanmış görseli siller ve metin parçaları döner.*_",
+    "XypCb3R1biDDp2FsxLHFn8SxcCDDp2FsxLHFn21hZMSxxJ/EsW7EsSB0ZXN0IGVkZXIqXw==": "_*Botun bakımının çalışmadığını test eder*_",
+    "UG9lbSBzZWFyY2gu": "Şiir arama.",
+    "XypCb3R1biB2aXp5b251LCB0ZWtub2xvamlzaSB2ZSBnZWxpxZ90aXJpY2lzaSBoYWtrxLFuZGEgYmlsZ2kgdmVyaXIqXw==": "_*Botun vizyonu, teknolojisi ve geliştiricisi hakkında bilgi verir*_",
+    "X1NlYWNyaCBmb3IgYSBwbHVnaW4gaW4gdGhlIHN0b3JlLiBodHRwczovL2dpdGh1Yi5jb20vY2FuMjMzNC9OZXh1c1BsdWdpbk1hcmtldF8=": "_Mağazadaki bir eklenti için Seacrh. https://github.com/can2334/NexusPluginMarket_",
+    "VGV4dCB0byBzcGVlY2gu": "Metinden konuşmaya.",
+    "U3RhcnQgYSBnYW1lIG9mIEJsYWNramFjayE=": "Blackjack oyununa başlayın!",
+    "TWFrZSBzdGlja2VyIGZyb20gaW1hZ2Ugb3IgdmlkZW8=": "Resim veya videodan çıkartma yapın",
+    "X0dldCBseXJpY3Mgb2YgYSBzb25nLl8=": "_Bir şarkının sözlerini alın._",
+    "X01ldGVyIHRoZSByZXNwb25zZSB0aW1lIG9mIHRoZSBib3QuXw==": "_Botun tepki süresini ölçün._",
+    "X1VzZXJzIGdpdmVuIHN1ZG8gd2lsbCBoYXZlIGFsbCBib3QgcGVybWlzc2lvbnMhXw==": "_Sudo verilen kullanıcılara tüm bot izinleri verilecek!_"
+  },
+  "translateTo": "tr",
+  "otochat": []
+}

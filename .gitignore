@@ -1,0 +1,13 @@
+.started
+session
+package-lock.json
+*.image
+*.video
+*.mp4
+*.mp3
+.DS_Store
+*test.js
+.readme
+eslint.config.mjs
+test_modules
+node_modules
