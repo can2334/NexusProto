@@ -1,4 +1,4 @@
-addCommand({ pattern: "^tagall ?([\\s\\S]*)", desc: "_It allows you to tag all users in the group._", access: "all", onlyInGroups: true }, async (msg, match, sock, rawMessage) => {
+addCommand({ pattern: "^tagall ?([\\s\\S]*)", desc: "_It allows you to tag all users in the group._", access: "sudo", onlyInGroups: true }, async (msg, match, sock, rawMessage) => {
 
     const groupMetadata = await sock.groupMetadata(msg.key.remoteJid);
     const participants = groupMetadata.participants.map(p => p.id);
